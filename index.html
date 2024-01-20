@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Vaguishtekart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home" id="home">
+            <nav>
+                <img src="assets/IMG-20231019-WA0019-removebg-preview.png" class="logo-pic">
+                <a href="" class="logo">VAGUISHTEK<span>ART</span></a>
+                <div class="nav">
+                    <a href="#home" class="nav-elements">HOME</a>
+                    <a href="#about" class="nav-elements">ABOUT</a>
+                    <a href="#services" class="nav-elements">SERVICES</a>
+                    <!-- <a href="" class="nav-elements">REVIEWS</a> -->
+                    <a href="#contact"><button href="" class="nav-elements nav-btn">PAY NOW</button></a>
+                </div>
+            </nav>
+            <div class="home-elements">
+                <h1 class="home-page-h1">Crafting Innovation, <br>Shaping <span class="success">Success</span></h1>
+                <a href="#contact"><button class="btn-1 animate__animated animate__fadeInUp">Work With Us</button></a>
+                <div class="images">
+                    <img src="assets/WhatsApp Image 2023-11-19 at 2.06.54 AM.jpeg" alt="homepage img 2" class="homepage-img animate__animated animate__fadeInUp">
+                    <img src="assets/WhatsApp Image 2023-11-19 at 1.59.44 AM.jpeg" alt="homepage img 1" class="homepage-img animate__animated animate__fadeInUp">
+                    <img src="assets/WhatsApp Image 2023-11-19 at 10.11.15 PM.jpeg" alt="homepage img 3" class="homepage-img animate__animated animate__fadeInUp">
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h2 class="about-heading">About <br>Vaguishtek<span class="art">Art</span></h2>
+            <img src="assets/Untitled_design-removebg-preview.png" class="circles" alt="">
+            <img src="assets/teamwork-3213924_1280.jpg" class="about-img" alt="Team of employees">
+            <div>
+                <p class="about-text1">We are an agency that provides a multitude of digital services, having a single aim, ‘to be your visionary partner on your journey to digital excellence’. Our name ‘Vaguishtekart’ signifies the fusion of vision, artistry, and technology, and we infuse these elements into every project we undertake. Having a diverse team of passionate creatives, tech enthusiasts, and marketing experts with a collective goal to exceed your expectations, our team has mastered a spectrum of services.</p>
+                <p class="about-text2">Whether it's graphic design, animation, website design, web development, social media marketing, social media management, or 3D modeling, we have the skills, knowledge, and experience to deliver results that matter. Our mission is to empower businesses and brands with the digital tools and strategies they need to thrive in today's competitive landscape. Whether you are an already established business looking to enhance your online presence or a new startup wanting to carve your way up in the digital world, we have got you covered.</p>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="graphic-design">
+                <h2 class="services-heading">Our Services</h2>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">01</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">Graphic Design</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">We are a team of passionate and creative designers dedicated to turning your ideas into stunning, eye-catching designs. Our designers are not just artists; they are storytellers. We infuse creativity and imagination into every project, ensuring that your brand's story is told visually, captivating your audience in a way that words alone cannot.</p>
+                <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('graphic-design-details.html')">LEARN MORE</button>
+                <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/graphic design.png" class="service-img graphic-design-img" alt="Team of designers vector image">
+            </div>
+            <div class="animation">
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700"data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">02</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">2D & 3D Animation</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">We're the storytellers who breathe life into your visions. At Vaguishtekart, we're a dynamic team of animators, and creative minds dedicated to transforming your ideas into stunning 2D and 3D animations that captivate, educate, and entertain.</p>
+                <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('animation.html')">LEARN MORE</button>
+                <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/to-paint-1874771_1280.jpg" class="service-img painting" alt="3D stick figure making art on a canvas">
+            </div>
+            <div class="modeling">
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">03</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">3D Modeling</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">We bring your ideas to life through the power of 3D modeling, creating immersive and realistic experiences that transcend the boundaries of imagination. We understand the limitless potential of 3D modeling, and we're here to help you explore it. Whether it's for games, films, product design, or architecture, we've got the expertise.</p>
+                <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('3d-modeling.html')">LEARN MORE</button>
+                <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/3d monkey.png" class="service-img monkey" alt="Monkey 3D Model">
+            </div>
+            <div class="sm-marketing">
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">04</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">Social Media Marketing</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">At Vaguishtekart, we orchestrate digital success stories. Our team isn't just savvy with social media; we live and breathe it. We stay ahead of trends, algorithms, and user behavior to craft strategies that maximize your social reach. Whether it's Facebook, Instagram, Twitter, or LinkedIn, we've got the expertise to make your brand stand out.</p>
+                <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('sm-marketing.html')">LEARN MORE</button>
+                <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/social media marketing.jpg" class="service-img smm-img" alt="Marketing team vector image">
+            </div>
+            <div class="sm-management">
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">05</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">Social Media Management</p>
+                <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">As your dedicated social media partners, we're here to elevate your brand, foster engagement, and drive meaningful connections with your audience.  Our social media strategists develop tailored plans that align with your business objectives. From brand awareness to lead generation, we create strategies that resonate with your audience and achieve measurable results.</p>
+                <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('sm-management.html')">LEARN MORE</button>
+                <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/social-media-5187243_1280-removebg-preview.png" class="service-img sm-management-img" alt="Team of experts managing social media accounts vector image">
+            </div>
+            <div class="web-design">
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">06</p>
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">Web Design</p>
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">Let us be your partner in turning your online vision into reality. Our expert team of web designers is dedicated to creating websites that not only look remarkable but perform seamlessly aswell.</p>
+                    <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('web-design.html')">LEARN MORE</button>
+                    <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/responsive web design.jpeg" class="service-img web-design-img" alt="Responsive web design vector image">
+            </div>
+            <div class="web-development">
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-number">07</p>
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service">Web Development</p>
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" class="service-description">Your brand is one-of-a-kind, and your website should reflect that. We create tailored web solutions that align with your brand identity, and business goals. Whether you are a startup looking for a dynamic online presence or an established brand seeking a website makeover we will be your trusted partner in the digital realm.</p>
+                    <button data-aos="fade-right" class="learn-more" onclick="redirectToDetails('web-development.html')">LEARN MORE</button>
+                    <img data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="700" src="assets/web development.jpg" class="service-img web-development-img" alt="Team of people building a website vector image">
+            </div>
+        </div>
+        <!-- <div class="reviews">
+            <h3>CUSTOMER REVIEWS</h3>
+        </div> -->
+        <div class="contact" id="contact">
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="500" class="contact-form">
+                <h3 class="form-heading">Let’s Work Together!</h3>
+                <p class="form-text">Write a message stating brief details of the project and what you expect to achieve through it.</p>
+                <form action="https://api.web3forms.com/submit" method="POST" onsubmit="event.preventDefault(); validateForm()">
+                    <div class="form-elements">
+                        <input type="hidden" name="access_key" value="27577817-2a35-479c-8355-17071159602f">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Your name">
+                        <small class="error"></small>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Your email">
+                        <small class="error"></small>
+                        <label for="phone-number">Phone number:</label>
+                        <input type="text" id="phone-number" placeholder="+44 123 45 678"><br>
+                        <small class="error"></small>
+                    </div>
+                    <label for="message">Message:</label>
+                    <textarea type="text" id="message" placeholder="Type your message here" rows="6"></textarea>
+                    <small class="error"></small>
+                    <input type="checkbox" id="tos" name="tos"> 
+                    <label for="tos">Do you agree to our <a onclick="togglePopup()" class="tos">terms of service?</a> <span class="star">*</span></label> 
+
+                    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="close-btn" onclick="togglePopup()">&#10006;</div>
+                            <h3>Terms of service:</h3>
+                            <p>1- The work will start after a minimum of 50% upfront is received. <br>
+                               2- The remaining payment has to be paid after the work is completed. <br>
+                               3- After the complete payment has been received, the work will only be sent by email. <br>
+                               4- If the client feels comfortable paying the full amount in advance, he or she may do so. <br>
+                               5- The client can have a specific number of revisions given by the representative. <br>
+                               6- Once the work has been accepted and delivered, the free revision is no longer applicable. <br>
+                               7- There is NO refund policy. <br>
+                               8- The work cannot be canceled after the payment has been received. <br>
+                               9- In case of any query our team will get back to you within 48 hours</p>
+                        </div>
+                    </div>
+                    <small class="error"></small>
+                    <input type="submit" class="form-btn" value="Submit">
+                    <p id="success"></p>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <h3 class="footer-logo">VAGUISHTEK<span>ART</span></h3>
+                <div class="footer-text1">
+                    <p class="footer-heading">YOUR VISION, OUR <br>MISSION</p>
+                    <a href="#contact"><button class="footer-btn">CONTACT US</button></a>
+                </div>
+                <div class="footer-text2">
+                    <h3 class="contact-info">CONTACT INFO</h3>
+                    <h3>Phone Number:</h3>
+                    <p>+76 209 1092 4095</p>
+                    <h3>Email:</h3>
+                    <p>Vaguishtekart@outlook.com</p>
+                    <a href=""><img src="assets/social-media-5995266_640.png" alt="instagram logo" class="instagram"></a>
+                    <a href=""><img src="assets/social-media-5995266_640 (1).png" alt="Twitter logo" class="twitter"></a>
+                </div>
+                <p class="copyright">© Vaguishtekart 2023. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
